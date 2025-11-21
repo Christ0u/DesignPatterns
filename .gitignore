@@ -1,19 +1,18 @@
-## .gitignore pour un projet .NET Console (C#)
-
 # Build results
 bin/
 obj/
 artifacts/
 
-# Fichiers utilisateurs Visual Studio / VS Code
+# Visual Studio / VS Code user files
 .vs/
 .vscode/
+*.sln
 
 # Logs
 *.log
 logs/
 
-# Fichiers temporaires
+# Temp files
 *.tmp
 *.temp
 
@@ -32,19 +31,19 @@ BenchmarkDotNet.Artifacts/
 *.nuspec
 packages/
 
-# User secrets (dotnet user-secrets)
+# User secrets
 secrets.json
 
 # Rider / IntelliJ
 .idea/
 *.sln.iml
 
-# Configuration spécifique machine
+# Specific host configuration
 *.user
 *.userosscache
 *.suo
 
-# Configuration runtime dev
+# Runtime dev configuration
 *.runtimeconfig.dev.json
 
 # OS-specific files
@@ -57,5 +56,5 @@ $RECYCLE.BIN/
 # macOS
 .DS_Store
 
-# node_modules (si ton projet contient du tooling JS)
+# node_modules
 node_modules/
